@@ -32,7 +32,7 @@ $itens = [
     ]
 ];
  
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 $pdf = new \Mpdf\Mpdf();
 $dataAtual = date('d/m/Y');
 $htmlConteudo = '
